@@ -1,0 +1,112 @@
+.c {
+  position: relative;
+  width: 50%;
+}
+
+.sticky-top{
+  z-index:1;
+}
+
+.spinner{
+  z-index:2;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+.row{
+  margin-bottom: 32px;
+}
+
+.jumbotron{
+  border-radius: 0;
+}
+
+.index{
+  background-color:#343a40!important;
+  color:white!important;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.o {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  /*background-color: #008CBA;*/
+}
+
+/*.c:hover .o {
+  opacity: 1;
+}*/
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 2px black;
+}
+
+#personnages{
+  background-image: url("../Photo/anakin.jpg");
+  background-position: center;
+  background-size:cover;
+  width: 100%;
+  height: 300px;
+}
+
+#planetes{
+  background-image: url("../Photo/death-star.png");
+  background-position: center;
+  background-size:cover;
+  width: 100%;
+  height: 300px;
+}
+
+#vaisseaux{
+  background-image: url("../Photo/vaisseau.jpg");
+  background-position: center;
+  background-size:cover;
+  width: 100%;
+  height: 300px;
+}
+
+.spinner {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+}
+
+.desc-div{
+  disaply:none;
+  opacity: 0;
+}
+
+.desc-row{
+  display:block;
+}
+
+.planetes-desc{
+  text-align: center;
+}
+
+.vaisseaux-desc{
+  text-align: right;
+}

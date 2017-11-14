@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
+    <link rel="shortcut icon" href="Photo/favicon.ico">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="Style/style-accueil.css">
+    <title> SWAPI - Menu </title>
+  </head>
+  <body>
+    <div class="animation">
+      <div class="jumbotron text-center index">
+        <h1>Des informations sur STAR WARS tu découvriras !</h1>
+        <h2>Sélectionne la catégorie de ton choix :</h2>
+      </div>
+
+      <img src="Photo/yoda.jpg" alt="yoda">
+
+      <div class="container">
+        <div class="row ">
+
+          <div  class="col-sm-4 choix c">
+            <div id="personnages" class="div">
+              <a href="personnages.html">
+                <div class="o">
+                  <div class="text">Personnages</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-4 choix c" value="personnages">
+            <div id="planetes" class="div">
+              <a href="planetes.html">
+                <div class="o">
+                  <div class="text">Planètes</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="col-sm-4 choix c">
+            <div id="vaisseaux" class="div">
+              <a href="vaisseaux.html">
+                <div class="o">
+                  <div class="text">Vaisseaux</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row desc-row">
+          <div class="desc-div personnages-desc">Découvres des informations sur tes personnages préférés !</div>
+          <div class="desc-div planetes-desc">Découvres des informations sur les planètes de STAR WARS !</div>
+          <div class="desc-div vaisseaux-desc">Découvres des informations sur les vaisseaux de STAR WARS !</div>
+        </div>
+      </div>
+    </div>
+  <script src="Script/script-accueil.js"></script>
+  </body>
+</html>
